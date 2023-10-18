@@ -56,8 +56,6 @@ public class Operator {
 
 //        Precedence
         System.out.println("Precedence Info Table: https://www.cs.bilkent.edu.tr/~guvenir/courses/CS101/op_precedence.html");
-
-
     }
 }
 
