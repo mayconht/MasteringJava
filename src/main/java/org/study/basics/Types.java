@@ -11,6 +11,7 @@ public class Types {
         System.out.println("Double: " + Double.MIN_VALUE + " to " + Double.MAX_VALUE);
         System.out.println("Character: " + Character.MIN_VALUE + " to " + Character.MAX_VALUE);
         System.out.println("Boolean: " + Boolean.TRUE + " or " + Boolean.FALSE);
-
+        System.out.println("String: " + "String is not a primitive type, but it is immutable");
+          
     }
 }
