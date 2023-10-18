@@ -5,7 +5,22 @@ public class ControlFlow {
 
         ifElseStatements();
         forLoops();
+        whileLoops();
 
+    }
+
+    private void whileLoops() {
+        int i = 0;
+        while (i < 10) {
+            System.out.println("i is " + i + " and is on simple while loop");
+            i++;
+        }
+
+        int j = 0;
+        do {
+            System.out.println("j is " + j + " and is on simple do while loop");
+            j++;
+        } while (j < 10);
     }
 
     private void forLoops() {
