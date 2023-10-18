@@ -3,11 +3,28 @@ package org.study.basics;
 public class ControlFlow {
     public ControlFlow() {
 
-        conditionalStatements();
+        ifElseStatements();
+        forLoops();
 
     }
 
-    private void conditionalStatements() {
+    private void forLoops() {
+        for (int i = 0; i < 10; i++) {
+            System.out.println("i is " + i + " and is on simple for loop");
+        }
+
+        int[] numbers = {1, 2, 3, 4, 5};
+        for (int number : numbers) { //for each number in numbers (similar to python)
+            System.out.println("number is " + number + " and is on enhanced for loop");
+            if (number > 3) {
+                System.out.println("number is greater than 3, breaking the loop");
+                break;
+            }
+        }
+
+    }
+
+    private void ifElseStatements() {
         System.out.println("Conditional Statements");
         int x = 10;
         if (x == 10) {

@@ -12,6 +12,9 @@ public class Types {
         System.out.println("Character: " + Character.MIN_VALUE + " to " + Character.MAX_VALUE);
         System.out.println("Boolean: " + Boolean.TRUE + " or " + Boolean.FALSE);
         System.out.println("String: " + "String is not a primitive type, but it is immutable");
-          
+        int x[] = {1, 2, 3, 4, 5};
+        System.out.println("Array has " + x.length + " elements");
+        System.out.println("Array at position 0: " + x[0]);
+
     }
 }
