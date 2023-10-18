@@ -4,6 +4,8 @@ import org.study.basics.ControlFlow;
 import org.study.basics.Methods;
 import org.study.basics.Operator;
 import org.study.basics.Types;
+import org.study.oop.Classes;
+import org.study.oop.StaticEx;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,6 +15,9 @@ public class Main {
         new Types();
         new Methods();
         new ControlFlow();
+        new Classes();
+        StaticEx.method1();
+        StaticEx.method("test");
 
     }
 }
