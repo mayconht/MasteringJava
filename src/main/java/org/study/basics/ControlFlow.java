@@ -33,8 +33,9 @@ public class ControlFlow {
         switch (x) {
             case 10 -> System.out.println("x is 10 and is on first switch case");
             case 20 -> System.out.println("x is 20 and is on second switch case");
+            case 30, 40, 50 -> System.out.println("x is 30, 40 or 50 and is on third switch case");
             default -> System.out.println("x is not 10 or 20 and is on default switch case");
         }
     }
 }
-}
+
