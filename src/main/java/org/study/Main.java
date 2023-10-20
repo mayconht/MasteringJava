@@ -7,6 +7,9 @@ import org.study.basics.Types;
 import org.study.oop.Classes;
 import org.study.oop.Pojo;
 import org.study.oop.StaticEx;
+import org.study.oop.inheritance.Animal;
+import org.study.oop.inheritance.Dog;
+import org.study.oop.inheritance.Fish;
 
 public class Main {
     public static void main(String[] args) {
@@ -38,6 +41,18 @@ public class Main {
                 po.setX(5);
                 System.out.println("po.getX() = " + po.getX());
                 System.out.println("po.getY() = " + po.getY());
+            }
+            {
+                System.out.println("Inheritance");
+                Dog dog = new Dog("German Sheppard", "big", "16");
+                Animal animal = new Animal("animal", "big", "10");
+                Fish fish = new Fish("clown fish", "small", "1");
+                dog.bark();
+                dog.move("6km/h");
+                animal.move("10km/h");
+                fish.move("2km/h");
+                animal.makeNoise();
+                fish.eat();
             }
         }
     }
