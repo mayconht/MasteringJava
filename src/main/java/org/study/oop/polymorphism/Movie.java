@@ -8,7 +8,15 @@ public class Movie {
     }
 
     public Movie() {
+    }
 
+    public static Movie getMovie(String type, String title) {
+        return switch (type.toUpperCase().trim()) {
+            case "ADVENTURE" -> new AdventureMovie(title);
+            case "DRAMA" -> new DramaMovie(title);
+            case "COMEDY" -> new ComedyMovie(title);
+            default -> new Movie(title);
+        };
     }
 
     public void watchMovie() {
