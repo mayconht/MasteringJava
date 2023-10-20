@@ -1,14 +1,20 @@
 package org.study.oop;
 
 public class StaticEx {
-    // static variable
-    static int a = 10;
+    // static examples are used for utility methods, like Math.random()
+    // static variables, even if you have multiple instances of the class, there is only one copy of the static variable
+
+    public static int a = 10;
     static int b;
 
     // static block
     static {
         System.out.println("Static block initialized.");
         b = a * 4;
+    }
+
+    public StaticEx(int a) {
+        StaticEx.a = a;
     }
 //    the static block in a non-static class is executed when the class is instantiated
 //    but the static block in a static class is executed when the class is loaded
