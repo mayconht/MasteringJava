@@ -5,6 +5,7 @@ import org.study.basics.Methods;
 import org.study.basics.Operator;
 import org.study.basics.Types;
 import org.study.oop.Classes;
+import org.study.oop.Pojo;
 import org.study.oop.StaticEx;
 
 public class Main {
@@ -23,7 +24,9 @@ public class Main {
         StaticEx ex2 = new StaticEx(15);
         System.out.println("ex1.a = " + ex1.a);
         System.out.println("ex2.a = " + ex2.a);
-
+        Pojo po = new Pojo(1, 2);
+        po.setX(5);
+        System.out.println("po.getX() = " + po.getX());
 
     }
 }

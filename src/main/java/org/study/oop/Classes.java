@@ -9,7 +9,7 @@ public class Classes {
         ex.printValues();
         Example ex2 = new Example(1, 2);
         ex2.printValues();
-        
+
     }
 }
 
@@ -42,3 +42,4 @@ class Example {
 
 
 }
+
