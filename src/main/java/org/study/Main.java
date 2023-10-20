@@ -7,6 +7,10 @@ import org.study.basics.Types;
 import org.study.oop.Classes;
 import org.study.oop.Pojo;
 import org.study.oop.StaticEx;
+import org.study.oop.composition.ComputerCase;
+import org.study.oop.composition.Monitor;
+import org.study.oop.composition.Motherboard;
+import org.study.oop.composition.PersonalComputer;
 import org.study.oop.inheritance.Animal;
 import org.study.oop.inheritance.Dog;
 import org.study.oop.inheritance.Fish;
@@ -53,6 +57,15 @@ public class Main {
                 fish.move("2km/h");
                 animal.makeNoise();
                 fish.eat();
+            }
+            {
+                System.out.println("Composition");
+                Monitor monitor = new Monitor("27inch", "Samsung", "30cm", "60cm", "4k", "60Hz");
+                Motherboard motherboard = new Motherboard("Z390", "Asus", "30cm", "30cm", "LGA1151", "Z390");
+                ComputerCase computerCase = new ComputerCase("Corsair X black", "Corsair", "60cm", "30cm", "1100w", "black");
+                PersonalComputer pc = new PersonalComputer("PersonalBuilt", "Client", "60cm", "30cm", monitor, motherboard, computerCase);
+                pc.turnOn();
+                pc.turnOff();
             }
         }
     }
