@@ -1,4 +1,4 @@
-package org.study.oop.inheritance;
+package org.study.oop.classes.inheritance;
 
 public class Fish extends Animal {
     public Fish(String type, String size, String weight) {

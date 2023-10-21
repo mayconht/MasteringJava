@@ -1,4 +1,4 @@
-package org.study.oop.composition;
+package org.study.oop.classes.composition;
 
 class Product {
     String model;

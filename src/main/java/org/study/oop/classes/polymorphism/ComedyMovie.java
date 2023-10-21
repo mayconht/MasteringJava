@@ -1,4 +1,4 @@
-package org.study.oop.polymorphism;
+package org.study.oop.classes.polymorphism;
 
 public class ComedyMovie extends Movie {
     public ComedyMovie(String title) {

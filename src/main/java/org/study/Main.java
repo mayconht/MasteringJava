@@ -4,19 +4,19 @@ import org.study.basics.ControlFlow;
 import org.study.basics.Methods;
 import org.study.basics.Operator;
 import org.study.basics.Types;
-import org.study.oop.Classes;
 import org.study.oop.Pojo;
 import org.study.oop.StaticEx;
-import org.study.oop.composition.ComputerCase;
-import org.study.oop.composition.Monitor;
-import org.study.oop.composition.Motherboard;
-import org.study.oop.composition.PersonalComputer;
-import org.study.oop.inheritance.Animal;
-import org.study.oop.inheritance.Dog;
-import org.study.oop.inheritance.Fish;
-import org.study.oop.polymorphism.AdventureMovie;
-import org.study.oop.polymorphism.ComedyMovie;
-import org.study.oop.polymorphism.Movie;
+import org.study.oop.classes.Classes;
+import org.study.oop.classes.composition.ComputerCase;
+import org.study.oop.classes.composition.Monitor;
+import org.study.oop.classes.composition.Motherboard;
+import org.study.oop.classes.composition.PersonalComputer;
+import org.study.oop.classes.inheritance.Animal;
+import org.study.oop.classes.inheritance.Dog;
+import org.study.oop.classes.inheritance.Fish;
+import org.study.oop.classes.polymorphism.AdventureMovie;
+import org.study.oop.classes.polymorphism.ComedyMovie;
+import org.study.oop.classes.polymorphism.Movie;
 
 public class Main {
     public static void main(String[] args) {

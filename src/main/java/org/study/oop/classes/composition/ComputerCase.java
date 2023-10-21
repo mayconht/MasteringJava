@@ -1,4 +1,4 @@
-package org.study.oop.composition;
+package org.study.oop.classes.composition;
 
 public class ComputerCase extends Product {
     String powerSupply;

@@ -1,4 +1,4 @@
-package org.study.oop.composition;
+package org.study.oop.classes.composition;
 
 public class Motherboard extends Product {
     String socket;

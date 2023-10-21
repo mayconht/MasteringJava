@@ -1,4 +1,4 @@
-package org.study.oop;
+package org.study.oop.classes;
 
 public class Classes {
     public Classes() {
