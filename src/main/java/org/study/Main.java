@@ -109,7 +109,6 @@ public class Main {
                 adventureMovie.watchMovie();
                 Object comedyMovie = Movie.getMovie("Comedy", "hangover");
 //                System.out.println("comedyMovie = " + comedyMovie.watchMovie()); // this will not work because Object does not have watchMovie method
-                comedyMovie = (ComedyMovie) comedyMovie;
                 ((ComedyMovie) comedyMovie).watchMovie(); // this will work because we cast the object to ComedyMovie
                 var movie2 = Movie.getMovie("Adventure", "jaws"); // this is the same as Movie movie2 = Movie.getMovie("Comedy", "hangover");
 //               The var keyword was introduced in Java 10, and it is a reserved type name.
