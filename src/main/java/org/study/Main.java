@@ -1,11 +1,10 @@
 package org.study;
 
-import org.study.basics.ControlFlow;
-import org.study.basics.Methods;
-import org.study.basics.Operator;
-import org.study.basics.Types;
+import org.study.basics.*;
 import org.study.oop.Pojo;
 import org.study.oop.StaticEx;
+import org.study.oop.abstraction.Cat;
+import org.study.oop.abstraction.Snake;
 import org.study.oop.classes.Classes;
 import org.study.oop.classes.composition.ComputerCase;
 import org.study.oop.classes.composition.Monitor;
@@ -28,6 +27,7 @@ public class Main {
             new Types();
             new Methods();
             new ControlFlow();
+            new Arrays();
         }
         {
             System.out.println("oop");
@@ -114,6 +114,23 @@ public class Main {
 //               The var keyword was introduced in Java 10, and it is a reserved type name.
 //               It is used to declare a variable whose type is inferred by the compiler.
                 movie2.watchMovie();
+            }
+            {
+                System.out.println("Abstraction");
+                System.out.println("Interface");
+//                An interface is a completely "abstract class" that is used to group related methods with empty bodies:
+//                To access the interface methods, the interface must be "implemented" (kinda like inherited) by another class with the implements keyword (instead of extends).
+                var myCat = new Cat();
+                myCat.makeSound();
+                myCat.move();
+
+                System.out.println("Abstract class");
+//                An abstract class can have both abstract and regular methods:
+//                Note: Unlike interfaces, abstract classes can have a constructor.
+//                Note: If a class is declared abstract, it cannot be instantiated (create objects) and any methods declared abstract must be implemented by the subclass.
+                var mySnake = new Snake();
+                mySnake.makeSound();
+                mySnake.move();
             }
         }
     }
