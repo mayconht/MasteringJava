@@ -16,6 +16,7 @@ import org.study.oop.classes.inheritance.Fish;
 import org.study.oop.classes.polymorphism.AdventureMovie;
 import org.study.oop.classes.polymorphism.ComedyMovie;
 import org.study.oop.classes.polymorphism.Movie;
+import org.study.oop.generics.Box;
 
 public class Main {
     public static void main(String[] args) {
@@ -131,6 +132,22 @@ public class Main {
                 var mySnake = new Snake();
                 mySnake.makeSound();
                 mySnake.move();
+            }
+            {
+                System.out.println("Generics");
+//                Generics are a facility of generic programming that were added to the Java programming language in 2004 within version J2SE 5.0.
+//                They were designed to extend Java's type system to allow "a type or method to operate on objects of various types while providing compile-time type safety".
+//                A generic type is a generic class or interface that is parameterized over types.
+//                The following Box class will be modified to demonstrate the concept of generics.
+                Box<String> stringBox = new Box<>();
+                Box<Integer> integerBox = new Box<>();
+                stringBox.put("test");
+                integerBox.put(10);
+
+                System.out.println("stringBox.get() = " + stringBox.get());
+                System.out.println("integerBox.get() = " + integerBox.get());
+
+
             }
         }
     }
