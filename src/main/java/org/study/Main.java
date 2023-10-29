@@ -68,8 +68,10 @@ public class Main {
             }
             {
                 System.out.println("Composition");
-//                Composition is a restricted form of Aggregation in which two entities are highly dependent on each other.
-//                It represents part-of relationship.
+/*
+                Composition is a restricted form of Aggregation in which two entities are highly dependent on each other.
+                It represents part-of relationship.
+*/
                 Monitor monitor = new Monitor("27inch", "Samsung", "30cm", "60cm", "4k", "60Hz");
                 Motherboard motherboard = new Motherboard("Z390", "Asus", "30cm", "30cm", "LGA1151", "Z390");
                 ComputerCase computerCase = new ComputerCase("Corsair X black", "Corsair", "60cm", "30cm", "1100w", "black");
