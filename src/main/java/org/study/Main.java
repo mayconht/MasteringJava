@@ -38,6 +38,7 @@ public class Main {
                 new Classes();
                 StaticEx.method1();
                 StaticEx.method("test");
+
                 System.out.println("StaticEx.a = " + StaticEx.a);
                 StaticEx ex1 = new StaticEx(5);
                 StaticEx ex2 = new StaticEx(15);
