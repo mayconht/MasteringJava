@@ -29,6 +29,7 @@ public class Main {
             new Methods();
             new ControlFlow();
             new Arrays();
+            new Arrays().insideArrays();
         }
         {
             System.out.println("oop");
