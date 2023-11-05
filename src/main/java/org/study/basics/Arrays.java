@@ -83,6 +83,13 @@ public class Arrays {
 
         System.out.println("LinkedList: " + linkedList);
 
+        /*
+        Now regarding linked lists, they are slower than arrays, because they are dynamic data structures, so it is slower to access an element in a linked list than it is to access an element in an array.
+        but it only has to create a new node and link it to the previous node, it does not have to copy the elements from the old array to the new array.
+        so in terms of performance, it is faster to access an element in an array than it is to access an element in a linked list.
+        but it is faster to add an element to a linked list than it is to add an element to an array.
+         */
+
     }
 
 }
